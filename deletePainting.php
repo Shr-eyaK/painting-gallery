@@ -1,4 +1,3 @@
-<!--Activity3-->
 <!DOCTYPE html>
 <html>
 <head>

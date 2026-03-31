@@ -1,14 +1,14 @@
-<!--Exericse1-->
 <!DOCTYPE html>
 <html>
 <head>
     <title>
-        Paintings
+        Painting Gallery
     </title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Add a New Painting </h1>
+    <h1> Add a New Painting</h1>
 
     <?php
         require_once('config.inc.php');
@@ -26,7 +26,7 @@
             $price  = $_POST["Price"];
 
             $SQL = "insert into Paintings (Title, Artist, Year, Price)
-                    values ('$title', '$artist', $year, $price)";
+            values ('$title', '$artist', $year, $price)";
 
             if ($mysqli->query($SQL)) {
                 echo "<p class='success'>Record inserted successfully</p>";
