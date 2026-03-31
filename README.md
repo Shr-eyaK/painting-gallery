@@ -2,7 +2,7 @@
 
 A simple web application to display and manage a gallery of paintings. Built using PHP, SQL, HTML, and CSS.
 
-![Gallery Screenshot](Painting Gallery.png)
+![Painting Gallery Screenshot](painting-gallery.png)
 
 ## Features
 - View all paintings in the gallery
