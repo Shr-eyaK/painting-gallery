@@ -1,25 +1,51 @@
-# Painting Gallery
+## Painting Gallery
 
-A simple web application to display and manage a gallery of paintings. Built using PHP, SQL, HTML, and CSS.
+A web application for displaying and managing a digital gallery of paintings using PHP and MySQL.
 
 ![Painting Gallery Screenshot](painting-gallery.png)
 
 ## Features
-- View all paintings in the gallery
-- Add new paintings
-- Delete existing paintings
-- Homepage automatically redirects to gallery (`index.php`)
-- Clean and responsive layout
 
-## Technologies Used
+- View all paintings in a gallery layout
+- Add new painting entries
+- Delete existing paintings
+- Database-backed storage using MySQL
+- Responsive interface using HTML and CSS
+- Automatic homepage redirect to gallery view
+
+## Architecture Overview
+
+Server-rendered PHP application with a database-backed structure.
+
+### Frontend
+- HTML and CSS for layout and styling
+- Responsive gallery interface
+
+### Backend
+- PHP handles routing and CRUD operations
+- MySQL stores painting information persistently
+
+This structure separates presentation logic from database operations while maintaining a lightweight application design.
+
+## Tech Stack
+
 - PHP
-- MySQL / SQL
-- HTML & CSS
+- MySQL
+- HTML
+- CSS
 - Git & GitHub
 
-## Installation
+## Running the App
 
-1. Clone the repository:
+- Clone the repository
+- Import the SQL database
+- Configure database connection settings
+- Run using XAMPP or another PHP server environment
 
-```bash
-git clone https://github.com/Shr-eyaK/painting-gallery.git
+## Roadmap
+
+- Edit/update painting entries
+- Image upload support
+- Search and filtering
+- Authentication system
+- Improved gallery styling
