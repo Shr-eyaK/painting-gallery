@@ -6,26 +6,25 @@ A web application for displaying and managing a digital gallery of paintings usi
 
 ## Features
 
-- View all paintings in a gallery layout
+- View paintings in a gallery layout
 - Add new painting entries
 - Delete existing paintings
 - Database-backed storage using MySQL
-- Responsive interface using HTML and CSS
-- Automatic homepage redirect to gallery view
+- Responsive interface built with HTML and CSS
+- Homepage redirect to gallery view
 
-## Architecture Overview
+## Project Structure
 
-Server-rendered PHP application with a database-backed structure.
-
-### Frontend
-- HTML and CSS for layout and styling
-- Responsive gallery interface
-
-### Backend
-- PHP handles routing and CRUD operations
-- MySQL stores painting information persistently
-
-This structure separates presentation logic from database operations while maintaining a lightweight application design.
+```text
+Schema.sql
+addPainting.php
+deletePainting.php
+index.php
+main.css
+painting-gallery.png
+paintings.php
+showPaintings.php
+```
 
 ## Tech Stack
 
@@ -38,8 +37,8 @@ This structure separates presentation logic from database operations while maint
 ## Running the App
 
 - Clone the repository
-- Import the SQL database
-- Configure database connection settings
+- Import `Schema.sql` into MySQL
+- Configure database connection settings if needed
 - Run using XAMPP or another PHP server environment
 
 ## Roadmap
@@ -47,5 +46,4 @@ This structure separates presentation logic from database operations while maint
 - Edit/update painting entries
 - Image upload support
 - Search and filtering
-- Authentication system
 - Improved gallery styling
